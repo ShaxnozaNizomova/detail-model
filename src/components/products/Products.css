@@ -99,3 +99,19 @@
    line-height: 21px;
    padding-left: 12px;
 }
+.btn__box{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    border: 1px solid #4E9DD3;
+    padding: 15px;
+    width: 220px;
+    background-color: #4E9DD3;
+    color: #FFFF;
+    margin: 30px 0;
+}
+.btn:hover{
+    color: #292929;
+    background-color: #f0f0f3;
+}

@@ -9,7 +9,7 @@ const api__url = "https://dummyjson.com"
 function Products() {
   const [data, setData] = useState(null)
   const [searchParams, setSearchParams] = useSearchParams()
-  const [detail, setDetail] = useState(true)
+  const [detail, setDetail] = useState()
   useEffect(()=>{
     let id = searchParams.get("detail")
     if(id){
@@ -63,8 +63,11 @@ function Products() {
         ))
       }
       </div>
+     <div className='btn__box'>
+      <button className='btn'>Показать ещё</button>
+     </div>
      {
-      detail?  <Model data={detail} close={closeDetailModel}>
+      detail?  <Model close={closeDetailModel}>
       <div className='detail__model'>
       <div>
         <img src={detail?.thumbnail} alt="" />
