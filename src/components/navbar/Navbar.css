@@ -1,0 +1,27 @@
+.topnav{
+    padding: 20px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topnavbar{
+    width: 100%;
+   background-color: #F7EBE5;
+}
+.navbar__menu{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.menu__link{
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 17px;
+     text-transform: uppercase;
+     color: #2B1414;
+}
